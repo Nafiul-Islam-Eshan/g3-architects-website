@@ -34,6 +34,16 @@
     background-color: rgba(255, 143, 14, 0.1);
 }
 
+.primary-btn{
+    background-color: #ff900e;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 /* Header styles */
 
 header{
@@ -73,14 +83,117 @@ header{
     text-decoration: none;
 }
 
+/* Banner styles */
 .banner{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
     max-width: 862px;
     margin: 0 auto;
-    border: 1px solid red ;
+    text-align: center;
+    margin-bottom: 50px;
+    /* border: 1px solid red ; */
 }
 
 .banner .banner-title{
     flex-direction: column;
     text-align: center;
-    border: 2px solid blue;
+    font-size:4rem;
+    line-height: 4.8rem;
+    /* border: 2px solid blue; */
 }
+
+.banner .banner-description{
+    /* border: 2px solid green; */
+    line-height: 26px;
+    text-align: center;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
