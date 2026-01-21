@@ -46,21 +46,23 @@
 
 /* Header styles */
 
-header{
-    padding: 45px 240px;
+.header-container{
     flex-direction: column;
+    max-width: 1440px;
+    justify-content: center ;
+    margin: 0 auto;
 }
 
 /* navbar styles */
 
 .navbar{
     justify-content: space-between;
-    max-width: 1440px;
+    align-items: center;
 }
 
 .navbar h3{
     font-weight: 700;
-    font-size: 3rem;
+    font-size:2.8rem;
 }
 
 .navbar ul{
@@ -111,6 +113,16 @@ header{
 
 .banner-img{
     width: 100%;
+}
+
+@media screen and (max-width: 791px)  {
+    .navbar,
+    .nav-links{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        max-width: 100%;
+    }
 }
 
 
