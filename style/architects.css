@@ -53,6 +53,12 @@
     background-color: #e07c0d;
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.3125rem;
+}
+
 /* Header styles */
 
 .header-container{
@@ -154,11 +160,7 @@ main > section{
     gap: 32px;
 }
 
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 53px;
-}
+
 
 
 
