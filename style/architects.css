@@ -222,7 +222,6 @@ main > section{
     .nav-links,
     .teams-and-features{
         flex-direction: column;
-        
     }
 
     .navbar,
@@ -244,17 +243,18 @@ main > section{
         grid-template-columns: repeat(1, 1fr);
     }
     
-    .features-container {
-        margin: 20px;
+    
+    .facts-container{
+        grid-template-columns:  1fr;
+        gap: 20px;
+        justify-items: center;
     }
     
-    
-    
-    
-    
-
-    
-}
+    .some-facts h3,
+    .fact-description{
+        text-align: center;
+        max-width: 100%;
+    }
 
 
 
