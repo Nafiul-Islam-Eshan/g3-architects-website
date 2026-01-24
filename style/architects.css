@@ -177,54 +177,6 @@ main > section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* medium screens */
 @media screen and (max-width: 791px)  {
     .navbar,
@@ -240,6 +192,29 @@ main > section{
         justify-content: center;
         max-width: 100%;
     }
+
+    .banner .banner-title {
+        margin-top: 1rem;
+        font-size: 2.8rem;
+        line-height: 2.9rem;
+        /* border: 2px solid blue; */
+    }
+
+
+    .teams-img-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .features-container {
+        margin: 20px;
+    }
+    
+    
+    
+    
+    
+
+    
 }
 
 
