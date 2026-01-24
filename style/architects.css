@@ -225,11 +225,17 @@ main > section{
 
 
 
-/* Navbar styles for medium screens */
+/* medium screens */
 @media screen and (max-width: 791px)  {
     .navbar,
-    .nav-links{
+    .nav-links,
+    .teams-and-features{
         flex-direction: column;
+        
+    }
+
+    .navbar,
+    .nav-links{
         gap: 20px;
         justify-content: center;
         max-width: 100%;
