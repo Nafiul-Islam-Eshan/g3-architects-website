@@ -204,8 +204,21 @@ main > section{
     margin-bottom: 100px;
 }
 
+/* Section 4: Our sponsors */
 
+.sponsors-info{
+    gap: 1rem;
+    flex-direction: column;
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
 
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    filter: grayscale(100%);
+}
 
 
 
@@ -244,7 +257,8 @@ main > section{
     }
     
     
-    .facts-container{
+    .facts-container,
+    .sponsor-companies{
         grid-template-columns:  1fr;
         gap: 20px;
         justify-items: center;
@@ -261,7 +275,7 @@ main > section{
 
 
 
-
+}
 
 
 
