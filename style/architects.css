@@ -163,9 +163,32 @@ main > section{
 
 /* Section 2: Features you will love */
 
+.features-you-will-love{
+    gap:145px;
+    align-items: center;
+}
+
+.section-2-content > p{
+    margin-top: 24px;
+}
+
 .section-2-heading{
     border-left: 5px solid #ff900e;
-    padding-left: 20px;
+    padding-left: 20px
+}
+
+.feature-card{
+    /* border: 1px solid #FF900E; */
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 /* Section 3: Some Facts */
