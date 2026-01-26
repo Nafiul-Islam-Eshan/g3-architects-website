@@ -213,6 +213,10 @@ main > section{
     margin-bottom: 10px;
 }
 
+.section-2-img img{
+    width: 100%;
+}
+
 /* Section 3: Some Facts */
 
 .facts-container{
@@ -279,6 +283,7 @@ main > section{
 
 }
 
+
 .footer-content p{
     font-size: 20px;
     text-align: center;
@@ -333,7 +338,10 @@ main > section{
         max-width: 100%;
     }
 
+
     #experience-batch{
+        padding: 10px 20px;
+        font-size: 1.1rem;
         margin-top: -100px;
         margin-left: 10px;
     }
@@ -345,6 +353,9 @@ main > section{
 
     }
 
+    .experience-year{
+        font-size: 2.2rem;
+    }
 
 }
 
